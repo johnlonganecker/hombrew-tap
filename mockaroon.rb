@@ -3,10 +3,10 @@ require "FileUtils"
 class Mockaroon < Formula
   homepage "https://github.com/geofffranks/spruce"
 
-  v = "0.0.1"
+  v = "0.1.0"
   url "https://github.com/johnlonganecker/mockaroon/releases/download/#{v}/mockaroon-darwin-amd64"
   version v
-  sha256 "91e90e790808d5f444fa42795891d65b569885fca056572d925c3f4b9db1cc11"
+  sha256 "21ca9dd64ade12f13151e52f82459cc9d8b8a8dc43c1f83a8ff1572790e98e88"
 
   def install
     FileUtils.mv("mockaroon-darwin-amd64", "mockaroon")
